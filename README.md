@@ -1,6 +1,6 @@
 <div align="center">
 
-# O11 Session
+# Session
 
 ### Play with your band over the internet, inside your DAW.
 
@@ -11,9 +11,9 @@
 
 </div>
 
-<p align="center"><img src="images/o11-session.png" alt="O11 Session in a room of eight players, synced to Ableton through Link" width="900"></p>
+<p align="center"><img src="images/o11-session.png" alt="Session in a room of eight players, synced to Ableton through Link" width="900"></p>
 
-O11 Session is a VST3 plug-in for playing with your band over the internet,
+Session is a VST3 plug-in for playing with your band over the internet,
 each of you in your own DAW. One player hosts the room inside the plug-in; the
 others join with its address.
 
@@ -27,10 +27,10 @@ others join with its address.
 
 | Platform | Download |
 |---|---|
-| **macOS, Apple silicon** (M1 and later, macOS 12+) | [O11Session-macos-arm64.dmg](https://github.com/LeonidStern/session/releases/download/o11session-latest/O11Session-macos-arm64.dmg) |
-| **macOS, Intel** (macOS 12+) | [O11Session-macos-x86_64.dmg](https://github.com/LeonidStern/session/releases/download/o11session-latest/O11Session-macos-x86_64.dmg) |
-| **Windows** (64-bit) | [O11Session-windows-x64.zip](https://github.com/LeonidStern/session/releases/download/o11session-latest/O11Session-windows-x64.zip) |
-| **Linux** (x86_64) | [O11Session-linux-x86_64.zip](https://github.com/LeonidStern/session/releases/download/o11session-latest/O11Session-linux-x86_64.zip) |
+| **macOS, Apple silicon** (M1 and later, macOS 12+) | [Session-macos-arm64.dmg](https://github.com/LeonidStern/session/releases/download/latest/Session-macos-arm64.dmg) |
+| **macOS, Intel** (macOS 12+) | [Session-macos-x86_64.dmg](https://github.com/LeonidStern/session/releases/download/latest/Session-macos-x86_64.dmg) |
+| **Windows** (64-bit) | [Session-windows-x64.zip](https://github.com/LeonidStern/session/releases/download/latest/Session-windows-x64.zip) |
+| **Linux** (x86_64) | [Session-linux-x86_64.zip](https://github.com/LeonidStern/session/releases/download/latest/Session-linux-x86_64.zip) |
 
 These links always point to the newest build. It runs in any VST3 host.
 
@@ -47,12 +47,12 @@ Add `-s rc0.2` after `sh` for a release candidate instead of the newest build.
 ## Quick start
 
 1. **Install.** On macOS, open the disk image, open `/Library/Audio/Plug-Ins/VST3`
-   (in Finder: Go, Go to Folder), and drag O11 Session into that folder's window (it is signed and notarized by Apple). On Windows, copy
-   `O11Session.vst3` into `C:\Program Files\Common Files\VST3`. On Linux, copy
+   (in Finder: Go, Go to Folder), and drag Session into that folder's window (it is signed and notarized by Apple). On Windows, copy
+   `Session.vst3` into `C:\Program Files\Common Files\VST3`. On Linux, copy
    it into `~/.vst3`. On macOS and Linux, the
    [one-line terminal install](#download) does this for you and also updates later.
    Then rescan plug-ins in your DAW.
-2. **Start a room.** Put O11 Session on a track and press Host. It opens the
+2. **Start a room.** Put Session on a track and press Host. It opens the
    room on your computer, asks your router to let people in, and shows the
    address to share.
 3. **Invite your band.** They paste the address into their own copy and join.
@@ -95,7 +95,7 @@ what still doesn't arrive is concealed and faded out.
 
 Besides the main mix, the plug-in has eight stereo outputs, "Player 1" to
 "Player 8"; each player's row shows theirs (P1 to P8). In Ableton, create an
-audio track, set its Audio From to the O11 Session track and pick the player's
+audio track, set its Audio From to the Session track and pick the player's
 output.
 
 ## FAQ

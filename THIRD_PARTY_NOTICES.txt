@@ -1,7 +1,7 @@
 THIRD-PARTY NOTICES
 
-O11 Session (VST3 for macOS, Windows and Linux) and Session (AUv3 app for iPhone
-and iPad) are Copyright (c) 2026 Leonid Stern, all rights reserved. They include
+Session (VST3 for macOS, Windows and Linux, and AUv3 app for iPhone and iPad)
+is Copyright (c) 2026 Leonid Stern, all rights reserved. They include
 the third-party software below, each under its own licence. The full texts of
 the licences that ask to be reproduced follow the list.
 
